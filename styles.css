@@ -1,0 +1,41 @@
+/* Basic CSS for a simple webpage layout */
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets a nice, readable font */
+    line-height: 1.6; /* Adds spacing between lines */
+    padding: 20px; /* Adds a padding around the entire body */
+    background-color: #f4f4f4; /* A light grey background */
+}
+
+/* Header styles */
+header {
+    background: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align text */
+    padding: 10px 0; /* Padding above and below text */
+}
+
+/* Main content section */
+main {
+    background: #fff; /* White background for the main content */
+    padding: 20px; /* Padding inside the main content */
+    margin-top: 20px; /* Adds space between the header and the main content */
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1); /* Adds a subtle shadow around the main content */
+}
+
+/* Footer styles */
+footer {
+    background: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align text */
+    padding: 10px 0; /* Padding above and below text */
+    position: fixed; /* Makes the footer stick to the bottom of the page */
+    bottom: 0; /* Aligns the footer at the bottom */
+    width: 100%; /* Makes the footer extend across the screen */
+}
